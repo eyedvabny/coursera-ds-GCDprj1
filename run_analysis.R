@@ -72,4 +72,4 @@ new_col_order <- c(2,69,3,6,4,7,5,8,9,12,10,13,11,14,15,18,16,19,17,20,
 act_data <- act_data[new_col_order]
 
 # We have our tidy data set! All that's left is to save it.
-write.table(act_data,"tidy_data.tsv",row.names=F)
+write.table(act_data,"tidy_data.tsv",sep="\t",row.names=F)
